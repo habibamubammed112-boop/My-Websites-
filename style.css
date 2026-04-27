@@ -16,12 +16,6 @@ footer {
     margin-bottom: 40px;
 }
 
-.footer-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 16px;
-}
 
 .footer-brand-text {
     font-family: 'Fraunces', serif;
