@@ -34,14 +34,15 @@ footer {
     font-family: 'Fraunces', serif;
     margin-bottom: 12px;
     font-size: 15px;
-    text-transform: uppercase; /* مضافة لضمان العناوين كبيرة */
+    text-transform: uppercase; 
 }
+
 
 .footer-link {
     cursor: pointer;
     font-size: 13px;
     margin-bottom: 8px;
-    text-transform: uppercase; /* عدلتها من capitalize لـ uppercase */
+    text-transform: uppercase; 
 }
 
 .footer-link:hover {
@@ -69,3 +70,22 @@ footer {
   font-size: 24px;
   vertical-align: middle;
   color: white;
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.social-icons img {
+    width: 35px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
