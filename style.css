@@ -66,14 +66,14 @@ footer {
 }
 .social-icons {
     display: flex;
-    flex-direction: row; 
+    
     align-items: center;
     gap: 12px; 
     padding: 10px;
 }
 
 .social-icons img {
-    width: 28px; 
+    width: 28px;
     height: auto;
     transition: 0.3s;
 }
